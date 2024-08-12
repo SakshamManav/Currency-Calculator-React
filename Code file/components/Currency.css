@@ -1,0 +1,86 @@
+/* Currency.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b2b2b; /* Darker gray background */
+    color: #dcdcdc; /* Light gray text for contrast */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px; /* Padding to prevent content from touching edges on small screens */
+  }
+  
+  .card {
+    background-color: #3e3e3e; /* Medium dark background for the card */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Softer shadow */
+    width: 100%; /* Responsive width */
+    max-width: 400px; /* Maximum width suitable for phones */
+    padding: 20px; /* Padding for spacing */
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .title {
+    color: #f5f5f5; /* Lighter text color for title */
+    font-size: 1.6rem; /* Adjusted font size */
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .input, .select {
+    width: calc(100% - 20px);
+    padding: 14px; /* Increased padding */
+    border-radius: 8px;
+    border: 1px solid #555; /* Slightly lighter border color */
+    margin-bottom: 15px; /* Margin for spacing */
+    box-sizing: border-box;
+    background-color: #4a4a4a; /* Medium-dark background for inputs */
+    color: #f5f5f5; /* Light text color inside input/select */
+    font-size: 1rem; /* Font size for inputs */
+  }
+  
+  .input::placeholder, .select option {
+    color: #b0b0b0; /* Light gray placeholder text */
+  }
+  
+  .convert-button {
+    height: 55px; /* Slightly larger button */
+    width: 55px; /* Slightly larger button */
+    border-radius: 50%;
+    background-color: #6200ea; /* Accent color */
+    color: white;
+    font-size: 26px; /* Font size for icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px auto; /* Centered with margin */
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .convert-button:hover {
+    background-color: #3700b3; /* Darker shade on hover */
+    transform: scale(1.1);
+  }
+  
+  .result {
+    margin-top: 20px; /* Margin for spacing */
+  }
+  
+  .result h2 {
+    font-size: 1.6rem; /* Font size for result */
+    color: rgb(175, 215, 118); /* Highlight color for result */
+  }
+  
+  .label {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
